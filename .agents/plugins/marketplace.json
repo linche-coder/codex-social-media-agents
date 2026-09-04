@@ -1,0 +1,32 @@
+{
+  "name": "zichen-social-agents",
+  "interface": {
+    "displayName": "紫宸星宇社媒 Agent"
+  },
+  "plugins": [
+    {
+      "name": "social-media-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/social-media-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "social-media-interaction-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/social-media-interaction-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

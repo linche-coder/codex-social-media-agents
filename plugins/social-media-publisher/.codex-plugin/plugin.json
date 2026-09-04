@@ -1,0 +1,27 @@
+{
+  "name": "social-media-publisher",
+  "version": "1.0.0",
+  "description": "通过 Codex 内置浏览器批量发布视频和图文，支持 AI 文案、立即发布与多时间定时发布。",
+  "author": {
+    "name": "紫宸星宇效能部",
+    "url": "https://github.com/linche-coder"
+  },
+  "homepage": "https://github.com/linche-coder/codex-social-media-agents",
+  "repository": "https://github.com/linche-coder/codex-social-media-agents",
+  "keywords": ["social-media", "publishing", "automation", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "社媒自动发布 Agent",
+    "shortDescription": "批量发布视频和图文，支持 AI 文案与定时发布",
+    "longDescription": "通过 Codex 内置浏览器操作抖音、快手、小红书、B站、微博、视频号和百家号。支持视频、单图与多图内容，AI 或手动标题、正文及话题，立即发布和多个原生定时时间。全部页面准备完成后统一确认，再按平台和内容顺序提交并核验结果。",
+    "developerName": "紫宸星宇效能部",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/linche-coder/codex-social-media-agents",
+    "brandColor": "#161823",
+    "defaultPrompt": [
+      "使用 $media-publish 发布视频或图文，请先给我可复制填写的任务模板。",
+      "使用 $media-publish 检查全部发布页面，准备完成后再统一确认。"
+    ]
+  }
+}

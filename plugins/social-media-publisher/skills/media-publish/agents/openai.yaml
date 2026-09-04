@@ -1,0 +1,7 @@
+interface:
+  display_name: "社媒自动发布Agent"
+  short_description: "批量发布视频和图文，支持AI文案与多时间定时"
+  default_prompt: "使用 $media-publish 发布视频或图文。请先给我一份字段名加粗、可直接复制填写的简洁模板，不要使用表格。"
+
+policy:
+  allow_implicit_invocation: true

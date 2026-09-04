@@ -1,0 +1,27 @@
+{
+  "name": "social-media-interaction-agent",
+  "version": "1.0.0",
+  "description": "五平台社媒互动助手，支持推荐内容或单关键词搜索，以及浏览、点赞、评论、收藏、关注和已有私信回复。",
+  "author": {
+    "name": "紫宸星宇效能部",
+    "url": "https://github.com/linche-coder"
+  },
+  "homepage": "https://github.com/linche-coder/codex-social-media-agents",
+  "repository": "https://github.com/linche-coder/codex-social-media-agents",
+  "keywords": ["social-media", "interaction", "engagement", "codex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "社媒互动 Agent",
+    "shortDescription": "五平台推荐流或关键词搜索，自动分批准备互动",
+    "longDescription": "支持小红书、抖音、快手、B站和微博。每次选择一个平台，并从推荐内容或一个关键词搜索结果中选择一种来源。可设置浏览、点赞、评论、收藏、关注和已有私信回复上限；自动分批浏览并理解内容，过滤重复候选，生成贴合内容的评论与回复，在用户确认后提交并核验结果。",
+    "developerName": "紫宸星宇效能部",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/linche-coder/codex-social-media-agents",
+    "brandColor": "#FF2442",
+    "defaultPrompt": [
+      "使用 $social-media-interact，选择一个平台并设置浏览和互动数量上限。",
+      "使用 $social-media-interact，通过一个关键词搜索内容后准备互动。"
+    ]
+  }
+}

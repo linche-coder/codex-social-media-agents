@@ -1,0 +1,7 @@
+interface:
+  display_name: "社媒互动 Agent V3.2（内置浏览器测试）"
+  short_description: "支持推荐流或单关键词搜索，自动分批完成五类互动"
+  default_prompt: "使用 $social-media-interact，让我单选一个平台和内容来源，填写一个搜索关键词（如需要）及六项任务总上限，再自动分批执行。"
+
+policy:
+  allow_implicit_invocation: true
