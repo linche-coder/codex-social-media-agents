@@ -15,9 +15,13 @@
 2. 选择 **Add → Import marketplace**。
 3. 仓库地址填写 `https://github.com/linche-coder/codex-social-media-agents`。
 4. 本仓库的市场文件位于根目录，`Path` 保持为空。
-5. 导入完成后，成员可在插件目录中分别安装两个 Agent。
+5. `Branch` 可填写 `main`，也可以留空使用默认分支。
+6. 导入完成后，成员可在插件目录中分别安装两个 Agent。
+7. 安装完成后，新建一个 Codex 任务再开始使用。
 
-私有仓库需要先向团队成员和工作区使用的 GitHub 连接授予读取权限。
+本仓库为公开仓库，可直接访问和导入。仓库更新后，可在 **Admin → Plugins → Marketplace** 中打开该市场并选择 **Sync now**；系统也会进行每日自动同步。
+
+Codex 插件可在 ChatGPT 桌面应用中的 Codex 或 Codex CLI 中安装，IDE 扩展不支持插件。社媒互动 Agent 需要 Codex 内置浏览器，当前测试版请优先在带内置浏览器的桌面 Codex 环境中运行。
 
 ### 本地测试安装
 
@@ -57,7 +61,7 @@ codex plugin add social-media-interaction-agent@zichen-social-agents
 ## 使用说明
 
 - [社媒自动发布 Agent 使用说明](docs/紫宸星宇效能部_社媒自动发布Agent使用说明_V1_0.pdf)
-- [社媒互动 Agent 使用说明](docs/紫宸星宇效能部_社媒互动Agent使用说明_V1_0.pdf)
+- [社媒互动 Agent 使用说明（V1.1）](docs/紫宸星宇效能部_社媒互动Agent使用说明_V1_1.pdf)
 
 ## 目录结构
 
